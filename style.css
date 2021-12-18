@@ -18,8 +18,8 @@ img{
     margin-right: auto;
     max-height: 500px;
     max-width: 500px;
-    padding-bottom: 50px;
-    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 
@@ -97,9 +97,12 @@ h3 {
     color: white;
     padding: 10px;
     cursor: pointer;
-    font-size: 0.875em;
     display: block;
     width: 100%;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
 }
 
 .btn:hover {
@@ -108,9 +111,16 @@ h3 {
 
 
 p{
-    margin-right: 100px;
+    margin-right: 10px;
+    margin-left: 10px;
     font-family: Baskerville, serif;
 }
+
+.section {
+    margin-right: 75px;
+    margin-left: 75px;
+}
+
 
 ul li{
     font-weight: bold;
